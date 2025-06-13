@@ -12,6 +12,8 @@ import Box from "./components/StylingReact/Box";
 import Card from "./components/RestParamsProps/Card";
 import CounterWithClass from "./components/State/ClassState/CounterWithClass";
 import CounterWithFunction from "./components/State/FunctionState/CounterWithFunction";
+// import TimerCounter from "./components/ComponentLifecycle/ClassComponentLifecycle";
+import TimerCounter from "./components/ComponentLifecycle/FunctionalComponentLifecycle";
 
 function App() {
   // const [msg, setMsg] = useState<string | null>("Halo Dunia");
@@ -104,6 +106,7 @@ function App() {
 
       <CounterWithClass />
       <CounterWithFunction />
+      <TimerCounter />
     </div>
   );
 }
